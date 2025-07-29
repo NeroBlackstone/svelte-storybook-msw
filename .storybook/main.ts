@@ -15,6 +15,7 @@ const config: StorybookConfig = {
   "framework": {
     "name": "@storybook/sveltekit",
     "options": {}
-  }
+  },
+  "staticDirs": ['../public', '../static'],
 };
 export default config;
